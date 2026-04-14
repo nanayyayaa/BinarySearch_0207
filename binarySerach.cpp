@@ -67,3 +67,33 @@ void display()
     }
     cout << endl;
 }
+
+void binarySearch()
+{
+    char ulang
+    do
+    {
+        cout << "\n=====================================\n";
+        cout << "         Pencarian Binary Search      \n";
+        cout << "=====================================\n";
+
+        cout << "Masukkan elemen yang ingin dicari: ";
+        cin >> x;
+
+        int low = 0;
+        int high = nPanjang - 1;
+
+        do
+        {
+            int mid = (low + high) / 2;
+
+            if (element[mid] == x)
+            {
+                cout << "\n[✔] Elemen " << x << " ditemukan pada indeks " << mid << "\n";
+                return;
+            }
+
+            
+        }
+    }
+}
